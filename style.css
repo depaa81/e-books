@@ -1,0 +1,95 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container */
+body {
+  background: linear-gradient(135deg, #1a1a2e, #16213e);
+  color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.ebook-container {
+  background: #0f3460;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+  max-width: 800px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Header */
+header h1 {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  color: #ffcc00;
+}
+
+.subtitle {
+  font-size: 1rem;
+  color: #e0e0e0;
+  margin-bottom: 20px;
+}
+
+/* Content */
+#content {
+  margin: 20px 0;
+  text-align: left;
+  line-height: 1.6;
+}
+
+#content h2 {
+  color: #ffcc00;
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+
+#content p {
+  margin-bottom: 12px;
+  font-size: 1rem;
+}
+
+/* Footer */
+footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background: #ffcc00;
+  color: #1a1a2e;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #ffd633;
+}
+
+button:disabled {
+  background: #666;
+  cursor: not-allowed;
+}
+
+/* Responsif */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 1.5rem;
+  }
+  #content p {
+    font-size: 0.95rem;
+  }
+}
