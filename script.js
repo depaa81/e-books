@@ -1,69 +1,4 @@
-const chapters = [
-  {
-    title: "Bab 1 – Mengapa Kita Gagal?",
-    content: `
-      <p>Gagal adalah bagian alami dari perjalanan hidup. Bukan tanda akhir, tapi sinyal bahwa ada sesuatu yang perlu diperbaiki.</p>
-      <p>Banyak tokoh besar (Thomas Edison, Jack Ma, J.K. Rowling) pernah gagal berkali-kali sebelum sukses.</p>
-      <p><strong>Intinya:</strong> kegagalan bukan musuh, melainkan guru terbaik.</p>
-    `
-  },
-  {
-    title: "Bab 2 – Mengubah Pola Pikir",
-    content: `
-      <p><em>Fixed Mindset</em> vs <em>Growth Mindset</em>.</p>
-      <p>- Orang yang gagal lalu berhenti → fixed mindset.<br>
-         - Orang yang gagal lalu belajar → growth mindset.</p>
-      <p><strong>Cara membangun pola pikir baru:</strong></p>
-      <ul>
-        <li>Ganti kata “gagal” dengan “proses”.</li>
-        <li>Ubah pertanyaan dari “Kenapa aku gagal?” menjadi “Apa yang bisa kupelajari?”.</li>
-        <li>Bersyukur atas setiap pengalaman, sekecil apapun.</li>
-      </ul>
-    `
-  },
-  {
-    title: "Bab 3 – Bangkit dari Kegagalan",
-    content: `
-      <p><strong>Langkah praktis:</strong></p>
-      <ol>
-        <li>Akui kegagalan, jangan lari dari kenyataan.</li>
-        <li>Evaluasi kesalahan.</li>
-        <li>Susun strategi baru yang lebih realistis.</li>
-        <li>Cari mentor atau dukungan dari orang sekitar.</li>
-        <li>Mulai lagi dengan langkah kecil.</li>
-      </ol>
-      <blockquote>“Kegagalan hanyalah kesempatan untuk memulai lagi, kali ini dengan lebih cerdas.” – Henry Ford</blockquote>
-    `
-  },
-  {
-    title: "Bab 4 – Strategi Meraih Keberhasilan",
-    content: `
-      <ul>
-        <li><strong>Tetapkan tujuan yang jelas</strong> → tulis secara spesifik.</li>
-        <li><strong>Disiplin waktu & kebiasaan kecil</strong> → konsistensi adalah kunci.</li>
-        <li><strong>Belajar terus-menerus</strong> → jangan berhenti menambah ilmu.</li>
-        <li><strong>Bangun jaringan</strong> → hubungan baik membuka pintu.</li>
-        <li><strong>Pantang menyerah</strong> → sukses datang ketika orang lain berhenti.</li>
-      </ul>
-    `
-  },
-  {
-    title: "Bab 5 – Kisah Inspirasi Singkat",
-    content: `
-      <p><strong>Thomas Edison:</strong> 1.000 kali gagal sebelum menemukan lampu pijar.</p>
-      <p><strong>Jack Ma:</strong> ditolak kerja berkali-kali, termasuk di KFC, sebelum mendirikan Alibaba.</p>
-      <p><strong>Oprah Winfrey:</strong> pernah dipecat, kini ikon media dunia.</p>
-    `
-  },
-  {
-    title: "Bab 6 – Kamu Bisa!",
-    content: `
-      <p>Setiap orang pasti pernah gagal. Perbedaan hanya pada: apakah kamu menyerah, atau memilih bangkit.</p>
-      <p>Kesuksesan bukan soal keberuntungan, tapi soal ketekunan.</p>
-      <h3>👉 Jangan takut gagal, takutlah kalau kamu tidak mau mencoba lagi.</h3>
-    `
-  }
-];
+const chapters = [{"title": "Bab 1 – Mengapa Kita Gagal? (Halaman 1/5)", "content": "<p>Konten Bab 1 Halaman 1. Penjelasan detail tentang kegagalan, contoh nyata, dan makna belajar dari kesalahan.</p>"}, {"title": "Bab 1 – Mengapa Kita Gagal? (Halaman 2/5)", "content": "<p>Konten Bab 1 Halaman 2. Penjelasan detail tentang kegagalan, contoh nyata, dan makna belajar dari kesalahan.</p>"}, {"title": "Bab 1 – Mengapa Kita Gagal? (Halaman 3/5)", "content": "<p>Konten Bab 1 Halaman 3. Penjelasan detail tentang kegagalan, contoh nyata, dan makna belajar dari kesalahan.</p>"}, {"title": "Bab 1 – Mengapa Kita Gagal? (Halaman 4/5)", "content": "<p>Konten Bab 1 Halaman 4. Penjelasan detail tentang kegagalan, contoh nyata, dan makna belajar dari kesalahan.</p>"}, {"title": "Bab 1 – Mengapa Kita Gagal? (Halaman 5/5)", "content": "<p>Konten Bab 1 Halaman 5. Penjelasan detail tentang kegagalan, contoh nyata, dan makna belajar dari kesalahan.</p>"}, {"title": "Bab 2 – Mengubah Pola Pikir (Halaman 1/6)", "content": "<p>Konten Bab 2 Halaman 1. Membahas mindset, cara berpikir positif, growth mindset vs fixed mindset.</p>"}, {"title": "Bab 2 – Mengubah Pola Pikir (Halaman 2/6)", "content": "<p>Konten Bab 2 Halaman 2. Membahas mindset, cara berpikir positif, growth mindset vs fixed mindset.</p>"}, {"title": "Bab 2 – Mengubah Pola Pikir (Halaman 3/6)", "content": "<p>Konten Bab 2 Halaman 3. Membahas mindset, cara berpikir positif, growth mindset vs fixed mindset.</p>"}, {"title": "Bab 2 – Mengubah Pola Pikir (Halaman 4/6)", "content": "<p>Konten Bab 2 Halaman 4. Membahas mindset, cara berpikir positif, growth mindset vs fixed mindset.</p>"}, {"title": "Bab 2 – Mengubah Pola Pikir (Halaman 5/6)", "content": "<p>Konten Bab 2 Halaman 5. Membahas mindset, cara berpikir positif, growth mindset vs fixed mindset.</p>"}, {"title": "Bab 2 – Mengubah Pola Pikir (Halaman 6/6)", "content": "<p>Konten Bab 2 Halaman 6. Membahas mindset, cara berpikir positif, growth mindset vs fixed mindset.</p>"}, {"title": "Bab 3 – Bangkit dari Kegagalan (Halaman 1/6)", "content": "<p>Konten Bab 3 Halaman 1. Strategi praktis untuk bangkit, evaluasi kesalahan, dan mulai langkah baru.</p>"}, {"title": "Bab 3 – Bangkit dari Kegagalan (Halaman 2/6)", "content": "<p>Konten Bab 3 Halaman 2. Strategi praktis untuk bangkit, evaluasi kesalahan, dan mulai langkah baru.</p>"}, {"title": "Bab 3 – Bangkit dari Kegagalan (Halaman 3/6)", "content": "<p>Konten Bab 3 Halaman 3. Strategi praktis untuk bangkit, evaluasi kesalahan, dan mulai langkah baru.</p>"}, {"title": "Bab 3 – Bangkit dari Kegagalan (Halaman 4/6)", "content": "<p>Konten Bab 3 Halaman 4. Strategi praktis untuk bangkit, evaluasi kesalahan, dan mulai langkah baru.</p>"}, {"title": "Bab 3 – Bangkit dari Kegagalan (Halaman 5/6)", "content": "<p>Konten Bab 3 Halaman 5. Strategi praktis untuk bangkit, evaluasi kesalahan, dan mulai langkah baru.</p>"}, {"title": "Bab 3 – Bangkit dari Kegagalan (Halaman 6/6)", "content": "<p>Konten Bab 3 Halaman 6. Strategi praktis untuk bangkit, evaluasi kesalahan, dan mulai langkah baru.</p>"}, {"title": "Bab 4 – Strategi Meraih Keberhasilan (Halaman 1/7)", "content": "<p>Konten Bab 4 Halaman 1. Tips sukses: tujuan jelas, disiplin, belajar, jaringan, konsistensi.</p>"}, {"title": "Bab 4 – Strategi Meraih Keberhasilan (Halaman 2/7)", "content": "<p>Konten Bab 4 Halaman 2. Tips sukses: tujuan jelas, disiplin, belajar, jaringan, konsistensi.</p>"}, {"title": "Bab 4 – Strategi Meraih Keberhasilan (Halaman 3/7)", "content": "<p>Konten Bab 4 Halaman 3. Tips sukses: tujuan jelas, disiplin, belajar, jaringan, konsistensi.</p>"}, {"title": "Bab 4 – Strategi Meraih Keberhasilan (Halaman 4/7)", "content": "<p>Konten Bab 4 Halaman 4. Tips sukses: tujuan jelas, disiplin, belajar, jaringan, konsistensi.</p>"}, {"title": "Bab 4 – Strategi Meraih Keberhasilan (Halaman 5/7)", "content": "<p>Konten Bab 4 Halaman 5. Tips sukses: tujuan jelas, disiplin, belajar, jaringan, konsistensi.</p>"}, {"title": "Bab 4 – Strategi Meraih Keberhasilan (Halaman 6/7)", "content": "<p>Konten Bab 4 Halaman 6. Tips sukses: tujuan jelas, disiplin, belajar, jaringan, konsistensi.</p>"}, {"title": "Bab 4 – Strategi Meraih Keberhasilan (Halaman 7/7)", "content": "<p>Konten Bab 4 Halaman 7. Tips sukses: tujuan jelas, disiplin, belajar, jaringan, konsistensi.</p>"}, {"title": "Bab 5 – Kisah Inspirasi Singkat (Halaman 1/5)", "content": "<p>Konten Bab 5 Halaman 1. Cerita tokoh sukses: Edison, Jack Ma, Oprah, dan lainnya.</p>"}, {"title": "Bab 5 – Kisah Inspirasi Singkat (Halaman 2/5)", "content": "<p>Konten Bab 5 Halaman 2. Cerita tokoh sukses: Edison, Jack Ma, Oprah, dan lainnya.</p>"}, {"title": "Bab 5 – Kisah Inspirasi Singkat (Halaman 3/5)", "content": "<p>Konten Bab 5 Halaman 3. Cerita tokoh sukses: Edison, Jack Ma, Oprah, dan lainnya.</p>"}, {"title": "Bab 5 – Kisah Inspirasi Singkat (Halaman 4/5)", "content": "<p>Konten Bab 5 Halaman 4. Cerita tokoh sukses: Edison, Jack Ma, Oprah, dan lainnya.</p>"}, {"title": "Bab 5 – Kisah Inspirasi Singkat (Halaman 5/5)", "content": "<p>Konten Bab 5 Halaman 5. Cerita tokoh sukses: Edison, Jack Ma, Oprah, dan lainnya.</p>"}, {"title": "Bab 6 – Kamu Bisa! (Halaman 1/6)", "content": "<p>Konten Bab 6 Halaman 1. Motivasi terakhir, pesan kuat agar tidak menyerah, dan ajakan untuk terus mencoba.</p>"}, {"title": "Bab 6 – Kamu Bisa! (Halaman 2/6)", "content": "<p>Konten Bab 6 Halaman 2. Motivasi terakhir, pesan kuat agar tidak menyerah, dan ajakan untuk terus mencoba.</p>"}, {"title": "Bab 6 – Kamu Bisa! (Halaman 3/6)", "content": "<p>Konten Bab 6 Halaman 3. Motivasi terakhir, pesan kuat agar tidak menyerah, dan ajakan untuk terus mencoba.</p>"}, {"title": "Bab 6 – Kamu Bisa! (Halaman 4/6)", "content": "<p>Konten Bab 6 Halaman 4. Motivasi terakhir, pesan kuat agar tidak menyerah, dan ajakan untuk terus mencoba.</p>"}, {"title": "Bab 6 – Kamu Bisa! (Halaman 5/6)", "content": "<p>Konten Bab 6 Halaman 5. Motivasi terakhir, pesan kuat agar tidak menyerah, dan ajakan untuk terus mencoba.</p>"}, {"title": "Bab 6 – Kamu Bisa! (Halaman 6/6)", "content": "<p>Konten Bab 6 Halaman 6. Motivasi terakhir, pesan kuat agar tidak menyerah, dan ajakan untuk terus mencoba.</p>"}];
 
 let currentChapter = 0;
 
@@ -92,5 +27,4 @@ nextBtn.addEventListener("click", () => {
   }
 });
 
-// Load pertama
 renderChapter(currentChapter);
