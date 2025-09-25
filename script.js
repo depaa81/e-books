@@ -163,11 +163,11 @@ const pages = [
   },
   {
     title: "📖 Halaman 36",
-    makna: "Setiap kegagalan bukanlah akhir, melainkan tanda bahwa kita sedang belajar. Dari jatuh, kita tahu bagaimana cara berdiri lebih kuat. Dari kehilangan, kita belajar arti menghargai. Dan dari penolakan, kita paham bahwa belum tentu semua yang kita inginkan adalah yang terbaik untuk kita."
+    content: "Setiap kegagalan bukanlah akhir, melainkan tanda bahwa kita sedang belajar. Dari jatuh, kita tahu bagaimana cara berdiri lebih kuat. Dari kehilangan, kita belajar arti menghargai. Dan dari penolakan, kita paham bahwa belum tentu semua yang kita inginkan adalah yang terbaik untuk kita."
   },
   {
     title: "📖 Halaman 37",
-    motivasi: "Bersyukurlah meski langkah terasa berat. Karena rasa syukur memberi kita tenaga baru untuk melanjutkan perjalanan. Ingatlah, orang yang sukses bukan mereka yang tak pernah gagal, melainkan mereka yang selalu bangkit setelah jatuh. Dan bangkitnya itu dimulai dari hati yang ikhlas dan bersyukur."
+    content: "Bersyukurlah meski langkah terasa berat. Karena rasa syukur memberi kita tenaga baru untuk melanjutkan perjalanan. Ingatlah, orang yang sukses bukan mereka yang tak pernah gagal, melainkan mereka yang selalu bangkit setelah jatuh. Dan bangkitnya itu dimulai dari hati yang ikhlas dan bersyukur."
   },
 ];
 
