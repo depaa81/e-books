@@ -6,7 +6,6 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Container */
 body {
   background: linear-gradient(135deg, #1a1a2e, #16213e);
   color: #f1f1f1;
@@ -27,7 +26,6 @@ body {
   text-align: center;
 }
 
-/* Header */
 header h1 {
   font-size: 2rem;
   margin-bottom: 5px;
@@ -40,7 +38,6 @@ header h1 {
   margin-bottom: 20px;
 }
 
-/* Content */
 #content {
   margin: 20px 0;
   text-align: left;
@@ -58,7 +55,6 @@ header h1 {
   font-size: 1rem;
 }
 
-/* Footer */
 footer {
   display: flex;
   justify-content: space-between;
@@ -84,7 +80,6 @@ button:disabled {
   cursor: not-allowed;
 }
 
-/* Responsif */
 @media (max-width: 600px) {
   header h1 {
     font-size: 1.5rem;
@@ -92,4 +87,4 @@ button:disabled {
   #content p {
     font-size: 0.95rem;
   }
-}
+    }
